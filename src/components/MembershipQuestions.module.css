@@ -1,0 +1,43 @@
+.gymMemberMeatChild {
+  height: 80px;
+  width: 504px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.areYouA {
+  position: relative;
+  line-height: 100%;
+  font-weight: 800;
+  z-index: 2;
+}
+.ionarrowBackOutlineIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 2;
+}
+.gymMemberMeat {
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-11xl) var(--padding-lg) var(--padding-11xl)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}

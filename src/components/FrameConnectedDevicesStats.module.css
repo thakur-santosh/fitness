@@ -1,0 +1,557 @@
+.connectedDevicesChild {
+  height: 72px;
+  width: 73px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.ionarrowBackOutlineIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.connectedDevices {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xl) var(--padding-8xl) var(--padding-7xl)
+    var(--padding-7xl);
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.your {
+  margin-block-start: 0;
+  margin-block-end: 1.93px;
+}
+.fitnessTracker {
+  margin: 0;
+}
+.yourFitnessTrackerContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 74px;
+  position: relative;
+  font-size: inherit;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.connectedDevicesParent,
+.frameTracker {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameTracker {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 239px;
+}
+.connectedDevicesParent {
+  width: 494px;
+  flex-direction: row;
+  gap: var(--gap-34xl);
+  min-height: 90px;
+}
+.fRAMEChild {
+  height: 103px;
+  width: 372px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-orangered);
+  display: none;
+  max-width: 100%;
+}
+.connectedDevices1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.fRAME,
+.fRAME1,
+.fRAME2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.fRAME1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-22xl) var(--padding-xl) var(--padding-23xl)
+    var(--padding-8xl);
+  background-color: var(--color-orangered);
+  flex: 1;
+  border-radius: var(--br-11xl);
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 244px;
+  white-space: nowrap;
+}
+.ageHeightFrame:hover,
+.fRAME1:hover {
+  background-color: var(--color-orangered-100);
+}
+.fRAME,
+.fRAME2 {
+  justify-content: flex-start;
+}
+.fRAME2 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke);
+  height: 103px;
+  flex: 0.4726;
+  border-radius: var(--br-11xl);
+  align-items: center;
+  padding: var(--padding-22xl) var(--padding-91xl) var(--padding-23xl);
+  box-sizing: border-box;
+  font-family: var(--font-open-sans);
+  font-weight: 600;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  min-width: 244px;
+}
+.fRAME {
+  width: 776px;
+  align-items: flex-start;
+  gap: var(--gap-10xl);
+}
+.circleIcon {
+  position: absolute;
+  top: 287px;
+  left: 13px;
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-100);
+  filter: blur(50px);
+  width: 370px;
+  height: 75px;
+}
+.tEXTChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mistyrose);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.smartwatchInfo,
+.tEXT {
+  position: absolute;
+  left: 0;
+  width: 776px;
+}
+.smartwatchInfo {
+  top: 18px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-peachpuff);
+  height: 229px;
+  z-index: 1;
+}
+.tEXT {
+  top: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mistyrose);
+  height: 255px;
+}
+.screenshot20240205200304P {
+  position: absolute;
+  top: 4px;
+  left: 494px;
+  width: 322px;
+  height: 322px;
+  object-fit: cover;
+  z-index: 3;
+}
+.fRAME3 {
+  align-self: stretch;
+  height: 362px;
+  position: relative;
+}
+.connectedDevicesFrameChild {
+  width: 776px;
+  height: 286px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslategray-100);
+  display: none;
+  max-width: 100%;
+}
+.fireBoltt,
+.smartWatch {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 600;
+  z-index: 3;
+}
+.fireBoltt {
+  margin: 0;
+  font-size: var(--font-size-7xl);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-white);
+}
+.frameConnectedDevicesStatis,
+.yourFitnessTracker {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameConnectedDevicesStatis {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.yourFitnessTracker {
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+}
+.scanTheDevice {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+  z-index: 3;
+}
+.caloriesFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 var(--padding-4xs);
+}
+.ageHeightFrameChild {
+  height: 49px;
+  width: 127px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-orangered);
+  display: none;
+}
+.scan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 4;
+}
+.ageHeightFrame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-sm) var(--padding-mini);
+  background-color: var(--color-orangered);
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+.connectedDevicesFrame,
+.eLLIPSE,
+.scanTheDeviceQRtoConnect {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.scanTheDeviceQRtoConnect {
+  width: 127px;
+  align-items: center;
+  gap: var(--gap-lgi);
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+}
+.connectedDevicesFrame,
+.eLLIPSE {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.connectedDevicesFrame {
+  width: 776px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslategray-100);
+  padding: var(--padding-18xl) var(--padding-5xs) var(--padding-12xl);
+  box-sizing: border-box;
+  gap: var(--gap-58xl);
+  z-index: 2;
+  margin-top: -325px;
+}
+.eLLIPSE {
+  align-self: stretch;
+  height: 362px;
+}
+.nameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-darkslategray-100);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.ellipseDots,
+.fitnessFrame {
+  position: absolute;
+  top: 28px;
+  left: 93px;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 130px;
+  height: 130px;
+  z-index: 1;
+}
+.ellipseDots {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-orangered);
+  box-shadow: 0 0 20px rgba(255, 130, 80, 0.51);
+  z-index: 2;
+}
+.ellipseDots1,
+.steps {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  z-index: 3;
+}
+.steps {
+  font-weight: 600;
+}
+.dietPreferenceEllipse,
+.ellipseDots2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.ellipseDots2 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-4xs);
+  font-size: var(--font-size-3xs);
+  color: var(--color-coral);
+}
+.dietPreferenceEllipse {
+  position: absolute;
+  top: 25px;
+  left: 93px;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-22xl) var(--padding-16xl) var(--padding-23xl)
+    var(--padding-23xl);
+  gap: var(--gap-mid);
+}
+.name {
+  height: 178px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-darkslategray-100);
+  min-width: 196px;
+}
+.frameWaterLtrsChild {
+  width: 256px;
+  height: 81px;
+  position: relative;
+  border-radius: var(--br-22xl);
+  background-color: var(--color-seashell);
+  display: none;
+}
+.calories {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 600;
+  z-index: 1;
+}
+.caloriesKcalInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.kcal {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 900;
+  color: var(--color-darkslategray-100);
+  z-index: 1;
+}
+.frameWaterLtrs,
+.frameWaterLtrsItem {
+  border-radius: var(--br-22xl);
+  background-color: var(--color-seashell);
+}
+.frameWaterLtrs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-2xl)
+    var(--padding-15xl);
+  gap: var(--gap-xs);
+}
+.frameWaterLtrsItem {
+  width: 256px;
+  height: 81px;
+  position: relative;
+  display: none;
+}
+.ltrs,
+.water {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 600;
+  z-index: 1;
+}
+.ltrs {
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  color: var(--color-darkslategray-100);
+}
+.caloriesKcalFrame,
+.frameWaterLtrs1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameWaterLtrs1 {
+  align-self: stretch;
+  border-radius: var(--br-22xl);
+  background-color: var(--color-seashell);
+  align-items: center;
+  padding: var(--padding-8xl) var(--padding-xl) var(--padding-base)
+    var(--padding-16xl);
+  gap: var(--gap-8xs);
+}
+.caloriesKcalFrame {
+  width: 256px;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  min-width: 256px;
+  font-size: var(--font-size-smi);
+  color: var(--color-coral);
+}
+.personalInfoFrame {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-34xl);
+}
+.addDetailsForm,
+.frameConnectedDevicesStats,
+.personalInfoFrame,
+.rECTANGLE {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.addDetailsForm {
+  width: 627px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.frameConnectedDevicesStats,
+.rECTANGLE {
+  flex-direction: column;
+}
+.rECTANGLE {
+  align-self: stretch;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-coral);
+}
+.frameConnectedDevicesStats {
+  flex: 1;
+  gap: var(--gap-27xl);
+  min-width: 530px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 750px) {
+  .yourFitnessTrackerContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+  .connectedDevicesParent {
+    gap: var(--gap-34xl);
+  }
+  .fRAME {
+    flex-wrap: wrap;
+  }
+  .caloriesKcalFrame {
+    flex: 1;
+  }
+  .personalInfoFrame {
+    flex-wrap: wrap;
+    gap: var(--gap-34xl);
+  }
+  .frameConnectedDevicesStats {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourFitnessTrackerContainer {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .connectedDevicesParent {
+    flex-wrap: wrap;
+  }
+  .fRAME2 {
+    flex: 1;
+  }
+  .fireBoltt {
+    font-size: var(--font-size-2xl);
+    line-height: 21px;
+  }
+  .ellipseDots1,
+  .kcal,
+  .ltrs,
+  .scan {
+    font-size: var(--font-size-base);
+    line-height: 16px;
+  }
+  .frameConnectedDevicesStats {
+    gap: var(--gap-27xl);
+  }
+}
